@@ -1,0 +1,14 @@
+Hasil "Hitung IAA" Prodigy (anotasi.uajy.ac.id), proyek kolaborasi overlap:
+{
+  "n_examples": 551,
+  "n_categories": 1,
+  "n_coincident_examples": 192,
+  "n_single_annotation": 8,
+  "n_annotators": 3,
+  "avg_raters_per_example": 2.755,
+  "percent_agreement": 1,
+  "kripp_alpha": 0,
+  "gwet_ac2": 1
+}
+Catatan: Prodigy hanya membandingkan status jawaban (semua accept), sehingga n_categories=1 dan nilai ini
+tidak mencerminkan kesepakatan label/span. Agreement bermakna dihitung pada KelpHHH_IRR_analisis.txt.

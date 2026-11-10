@@ -1,0 +1,60 @@
+items 200 labeled by all 3: 159
+
+Pairwise Cohen kappa per label: ['PENGIRIMAN', 'LAYANAN_PELANGGAN', 'APLIKASI_PERFORMA', 'USABILITY', 'PEMBAYARAN', 'PROMO_HARGA']
+Dani Isidorus 180 [np.float64(0.71), np.float64(0.68), np.float64(0.6), np.float64(0.76), np.float64(0.67), np.float64(0.66)] macro 0.68 exact-set 0.5
+Dani Johannes 171 [np.float64(0.74), np.float64(0.66), np.float64(0.47), np.float64(0.64), np.float64(0.44), np.float64(0.78)] macro 0.62 exact-set 0.47
+Isidorus Johannes 159 [np.float64(0.9), np.float64(0.63), np.float64(0.38), np.float64(0.61), np.float64(0.48), np.float64(0.77)] macro 0.63 exact-set 0.52
+
+Fleiss per label (3 raters):
+  PENGIRIMAN 0.81 prevalence 0.23
+  LAYANAN_PELANGGAN 0.69 prevalence 0.27
+  APLIKASI_PERFORMA 0.46 prevalence 0.23
+  USABILITY 0.67 prevalence 0.35
+  PEMBAYARAN 0.55 prevalence 0.15
+  PROMO_HARGA 0.75 prevalence 0.35
+macro Fleiss 0.65
+all 3 give identical label set 0.36
+
+Span agreement pairwise
+  Dani-Isidorus n=180 exact F1=0.31 overlap F1=0.51 token kappa=0.39
+  Dani-Johannes n=171 exact F1=0.28 overlap F1=0.52 token kappa=0.41
+  Isidorus-Johannes n=159 exact F1=0.30 overlap F1=0.50 token kappa=0.45
+
+Dani 200 avg labels/text 1.73 spans/text 2.13 {'PEMBAYARAN': 47, 'USABILITY': 71, 'LAYANAN_PELANGGAN': 48, 'APLIKASI_PERFORMA': 42, 'PENGIRIMAN': 59, 'PROMO_HARGA': 79}
+Isidorus 180 avg labels/text 1.46 spans/text 2.38 {'LAYANAN_PELANGGAN': 65, 'PEMBAYARAN': 26, 'APLIKASI_PERFORMA': 20, 'USABILITY': 64, 'PENGIRIMAN': 36, 'PROMO_HARGA': 51}
+Johannes 171 avg labels/text 1.48 spans/text 1.75 {'PEMBAYARAN': 14, 'APLIKASI_PERFORMA': 61, 'PENGIRIMAN': 32, 'PROMO_HARGA': 59, 'LAYANAN_PELANGGAN': 35, 'USABILITY': 52}
+missing per annotator {'Dani': 0, 'Isidorus': 20, 'Johannes': 29}
+
+Contoh disagreement:
+Pengalaman yg sangat buruk tgl 19 jan order kamera sdh di konfirmasi apakah ada stok jawabnya ada .setelah dio
+    Dani ['LAYANAN_PELANGGAN', 'PEMBAYARAN']
+    Isidorus ['LAYANAN_PELANGGAN']
+    Johannes ['APLIKASI_PERFORMA']
+Buka bli bli cuma buat ikutan flash sale, tapi aplikasinya bodoh banget suruh login lagi buat ikutan flash sal
+    Dani ['APLIKASI_PERFORMA', 'USABILITY']
+    Isidorus ['APLIKASI_PERFORMA']
+    Johannes ['APLIKASI_PERFORMA']
+Pelayanan memuaskan, customer service nya ramah dan jawabannya memuaskan gak gantung (klo toko sebelah suka ga
+    Dani ['LAYANAN_PELANGGAN', 'USABILITY']
+    Isidorus ['LAYANAN_PELANGGAN', 'USABILITY']
+    Johannes ['APLIKASI_PERFORMA', 'LAYANAN_PELANGGAN', 'USABILITY']
+murah dan mudah
+    Dani ['PROMO_HARGA', 'USABILITY']
+    Isidorus ['PROMO_HARGA']
+    Johannes ['PROMO_HARGA', 'USABILITY']
+Aplikasi belanja OL paling parah UI nya, mau transaksi aja repotnya luar binasa. Emang gak bisa ya desain UI k
+    Dani ['USABILITY']
+    Isidorus ['USABILITY']
+    Johannes ['APLIKASI_PERFORMA']
+Product sudah di whislist dari berapa bulan lalu, pas tersedia tdk di notif tau2 sudah habis.. setelah berapa 
+    Dani ['APLIKASI_PERFORMA', 'LAYANAN_PELANGGAN']
+    Isidorus ['LAYANAN_PELANGGAN']
+    Johannes ['LAYANAN_PELANGGAN']
+cashback PLN kalah dgn Bukalapak
+    Dani ['PROMO_HARGA']
+    Isidorus ['LAYANAN_PELANGGAN']
+    Johannes ['PROMO_HARGA']
+Ongkos ke Papua sdh tidak gratis Sayang sekali ongkos kirim ke Papua sudah tidak gratis, dan diganti dengan si
+    Dani ['PENGIRIMAN', 'PROMO_HARGA']
+    Isidorus ['PENGIRIMAN']
+    Johannes ['PENGIRIMAN', 'PROMO_HARGA']

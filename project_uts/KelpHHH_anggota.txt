@@ -1,0 +1,12 @@
+Kelompok: HHH
+Mata kuliah: Pemrosesan Bahasa Alami (UTS 2026/2027)
+Dataset: No. 8 - Indonesian Google Play Review (e-commerce app)
+
+Anggota:
+1. Dani Setiawan / 240712771
+2. Isidorus Ambar Wicaksono / 240712775
+3. Johannes Calvin / 240712781
+
+Tautan (isi): 
+- Repository: 
+- Tool anotasi: anotasi.uajy.ac.id (Prodigy)
