@@ -7,6 +7,6 @@ Anggota:
 2. Isidorus Ambar Wicaksono / 240712775
 3. Johannes Calvin / 240712781
 
-Tautan (isi): 
-- Repository: 
+Tautan: 
+- Repository: https://github.com/JCalv00/PROJECT_UTS_PBA_HHH
 - Tool anotasi: anotasi.uajy.ac.id (Prodigy)
